@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="\portfolio\web-project\css\techdoc.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Web Application Development</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li>
+          <a class="nav-link" href="#git_github">Git and Github</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Hypertext_Markup_Language"
+            >Hypertext Markup Language (HTML)</a
+          >
+        </li>
+        <li><a class="nav-link" href="#CSS">Cascading Style Sheets (CSS)</a></li>
+        <li><a class="nav-link" href="#Flexbox">Flexbox</a></li>
+        <li>
+          <a class="nav-link" href="#WSL"
+            >Window Subsystem for Linux</a
+          >
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <article>
+          <p>
+            Web application development involves the creation of dynamic and
+            interactive programs that run on web servers and are accessed by
+            users through web browsers. This field of development combines
+            various technologies, frameworks, and programming languages. This
+            process involves creating user-friendly applications accessible via
+            web browsers, utilizing a combination of client-side and server-side
+            technologies.
+          </p>
+          <h2 class="subintro2">Client-Side Development</h2>
+          <p>
+            Client-side development involves activities that occur within the
+            user's web browser, focusing on the presentation layer and user
+            interaction
+          </p>
+          <h3>Technologies:</h3>
+          <ul>
+            <li>Hypertext Markup Language(HTML)</li>
+            <li>Cascading Style Sheets(CSS)</li>
+            <li>JavaScript</li>
+          </ul>
+          <h3>Responsibilities:</h3>
+          <ul>
+            <li>Creating and structuring web pages(HTML)</li>
+            <li>Styling and designing webpages(CSS)</li>
+            <li>Implementing interactive features and behavior(JavaScript)</li>
+            <li>Managing user interface components and user experience</li>
+          </ul>
+          <h2 class="subintro2">Server-Side Development</h2>
+          <p>
+            Server-side development involves activities that occur on the web
+            server, handling data processing, business logic, and interactions
+            with databases.
+          </p>
+          <h3 class="subintro3">Technologies:</h3>
+          <ul>
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>MySQL</li>
+          </ul>
+          <h3>Responsibilities:</h3>
+          <ul>
+            <li>Managing data storage and retrieval from databases.</li>
+            <li>Executing business logic and application functionality.</li>
+            <li>Implementing user authentication and authorization.</li>
+            <li>Generating dynamic content to be sent to the client.</li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="git_github">
+        <header>Git and Github</header>
+        <article>
+          <p>
+            Git and GitHub are essential tools and platforms used in software
+            development for version control, collaboration, and managing code
+            repositories. Understanding their roles and functionalities is
+            important for modern development workflows.
+          </p>
+          <h2>Git</h2>
+          <p>
+            Git is a distributed version control system that tracks changes to
+            files and directories. It allows developers to collaborate on
+            projects efficiently by managing different versions of code.
+          </p>
+          <h3>Some Git commands</h3>
+          <ul>
+            <li><strong>git status</strong></li>
+            <li><strong>git add</strong></li>
+            <li><strong>git commit -m "comment"</strong></li>
+            <li><strong>git clone</strong></li>
+            <li><strong>git push</strong></li>
+            <li><strong>git log</strong></li>
+          </ul>
+          <h2>Github</h2>
+          <p>
+            GitHub is a web-based platform that hosts Git repositories and
+            provides additional collaboration features.
+          </p>
+          <h3>GitHub Codespace</h3>
+          <p>GitHub Codespaces is a cloud-based development environment that allows developers to write, review, and debug code directly within a web browser or Visual Studio Code (VS Code) without the need for local setup.</p>
+        </article>
+      </section>
+      <section class="main-section" id="Hypertext_Markup_Language">
+        <header>Hypertext Markup Language</header>
+        <article>
+          <p>
+            HTML (HyperText Markup Language) is the standard markup language
+            used to create the structure and content of web pages. It defines
+            the elements and components that make up a web page, allowing
+            developers to organize and present content on the internet.
+          </p>
+          <h2>Key Concepts</h2>
+          <h3>Document Structure</h3>
+          <p>
+            HTML documents follow a hierarchical structure defined by nested
+            elements. The basic structure of an HTML document includes the
+            &lthtml&gt, &lthead&gt, and &ltbody&gt elements.<br /><br />
+            Example:
+          </p>
+          <code><pre>
+&lt!DOCTYPE html&gt
+&lthtml lang="en"&gt
+  &lthead&gt
+    &ltmeta charset="UTF-8"&gt
+    &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt
+    &lttitle>Document&lt/title&gt
+  &lt/head&gt
+  &ltbody&gt
+    &ltp&gtThis is a paragraph&lt/p&gt
+  &lt/body&gt
+&lt/html&gt
+</pre></code>
+          <h3>Elements</h3>
+          <p>
+            HTML documents are composed of elements, which are defined by tags
+            enclosed in angle brackets ( &lt &gt ).
+          </p>
+          <h3>Tags</h3>
+          <p>
+            Tags are used to define different types of content within an HTML
+            document.
+          </p>
+          <h3>Attributes</h3>
+          <p>
+            Attributes provide additional information about HTML elements and
+            are defined within the opening tag.
+          </p>
+          <h3>Basic Tags</h3>
+          <ul>
+            <li><strong>&lthtml&gt</strong>: Represents the root element of an HTML document.</li>
+            <li><strong>&lthead&gt</strong>: Contains meta-information about the HTML document, such as the title, character set, and links to external resources.</li>
+            <li><strong>&lttitle&gt</strong>: Sets the title of the HTML document displayed in the browser tab.</li>
+            <li><strong>&ltbody&gt</strong>: Contains the content of the HTML document that is displayed in the browser window.</li>
+            <li><strong>&lth1 to &lth6&gt</strong>: Defines headings of different levels, where &lth1&gt is the highest level and &lth6&gt is the lowest level.</li>
+            <li><strong>&ltp&gt</strong>: Represents a paragraph of text.</li>
+            <li><strong>&lta&gt</strong>: Creates hyperlinks to other web pages or resources.</li>
+            <li><strong>&ltimg&gt</strong>: Inserts images into the HTML document.</li>
+          </ul>
+          <h2>Semantic HTML</h2>
+          <p>Semantic HTML refers to using HTML elements that convey meaning about the content they contain. This helps improve readability of the web page. <br><br> Example:</p>
+          <ul>
+            <li><strong>&ltheader&gt</strong></li>
+            <li><strong>&ltnav&gt</strong></li>
+            <li><strong>&ltmain&gt</strong></li>
+            <li><strong>&ltsection&gt</strong></li>
+            <li><strong>&ltarticle&gt</strong></li>
+            <li><strong>&ltaside&gt</strong></li>
+            <li><strong>&ltfooter&gt</strong></li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="CSS">
+        <header>Cascading Style Sheets</header>
+        <article>
+        <p>CSS (Cascading Style Sheets) is a fundamental technology used in web development to define the presentation and styling of HTML documents. 
+          It plays a crucial role in enhancing the visual appeal, layout, and overall aesthetics of web pages. 
+          CSS enables developers to control the appearance of elements on a webpage, ensuring consistency and creativity in design.</p>
+          <h2>Key Concepts</h2>
+          <h3>Selectors</h3>
+          <p>Selectors target specific HTML elements to apply styles. Common selectors include element selectors (p, h1, div), class selectors (.className), and ID selectors (#idName).</p>
+          <h3>Properties and Values</h3>
+          <p>CSS properties define the appearance of HTML elements, while values determine how these properties are applied. For example, color: blue; sets the text color to blue.</p>
+          <h3>Inline Style Sheets</h3>
+          <p>Styles applied directly to HTML elements using the style attribute.</p>
+          <code>&ltp style="color: red;"&gtThis is a red paragraph. &lt/p&gt</code>
+          
+          <h3>Internal Style Sheets</h3>
+          <p>Styles defined within &ltstyle&gt tags in the &lthead&gt section of an HTML document.</p>
+          <code><pre>
+&ltstyle&gt
+  h1 {
+    color: green;
+  }
+&lt/style&gt
+</pre></code>
+          <h3>External Style Sheets</h3>
+          <p>Styles stored in separate .css files and linked to HTML documents using the &ltlink&gt tag.</p>
+          <code>&ltlink rel="stylesheet" href="styles.css"&gt
+          </code>
+        </article>
+      </section>
+      <section class="main-section" id="Flexbox">
+        <header>Flexbox</header>
+        <article>
+          <p>
+            Flexbox is a layout model designed to simplify the arrangement of elements within a container, providing a more efficient and responsive way to design complex web layouts.
+          </p>
+          <h2>Key Concepts</h2>
+          <h3>Main Axis and Cross Axis</h3>
+          <p>Main Axis: The primary axis defined by the flex-direction property (row, row-reverse, column, column-reverse). <br>
+            Cross Axis: The perpendicular axis to the main axis.</p>
+          <h3>Flex Container</h3>
+          <p>An element set to display: flex; becomes a flex container, which enables the use of flexbox properties to control the layout of its child elements.</p>
+          <h3>Flex Items</h3>
+          <p>Children of a flex container are referred to as flex items. </p>
+          <h3>Flex Properties</h3>
+          <p>Flexbox introduces a set of properties to control the behavior and layout of flex items</p>
+          <ul>
+            <li><strong>display: flex;</strong> : Establishes a flex container.</li>
+            <li><strong>flex-direction</strong> : Defines the main axis direction.</li>
+            <li><strong>justify-content</strong> : Aligns flex items along the main axis.</li>
+            <li><strong>align-items</strong> : Aligns flex items along the cross axis.</li>
+            <li><strong>flex-grow, flex-shrink, flex-basis</strong> : Controls how flex items grow, shrink, and initialize.</li>
+          </ul>
+          <h2>To create a basic flexbox layout, follow these steps:</h2>
+          <h3>1. Set Up the Flex Container</h3>
+          <code><pre>
+.container {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: center; 
+}
+</pre></code>
+          <h3>2. Define FLex Items</h3>
+          <code><pre>
+.item {
+  flex: 1; 
+}
+</pre></code>
+          <h3>3. HTML Structure</h3>
+          <code><pre>
+&ltdiv class="container"&gt
+  &ltdiv class="item"&gtItem 1 &lt/div&gt
+  &ltdiv class="item"&gtItem 2 &lt/div&gt
+  &ltdiv class="item"&gtItem 3 &lt/div&gt
+&lt/div&gt
+</pre></code>
+      </article>
+      </section>
+      <section class="main-section" id="WSL">
+        <header>Window Subsystem for Linux</header>
+        <article>
+          <p>
+            Windows Subsystem for Linux (WSL) is a compatibility layer developed by Microsoft that enables you to run a Linux operation system on Windows 10 or later versions. 
+          </p>
+          <h2>List of Commands</h2>
+          <h3>Commands</h3>
+          <ul>
+            <li><strong>wsl --install</strong>: installs Linux</li>
+            <li><strong>wsl</strong>: opens Linux</li>
+            <li><strong>logout or exit returns to command prompt in windows</strong>:</li>
+            <li><strong>clear</strong>: clears the terminal screen</li>
+          </ul>
+          <h3>Apache Commands</h3>
+          <ul>
+            <li><strong>sudo apt upgrade</strong>: updates Linux before installation of Apache</li>
+            <li><strong>sudo apt update</strong>: upgrades Linux </li>
+            <li><strong>sudo apt-get install apache2</strong>: installs Apache server</li>
+            <li><strong>sudo service apache2 start</strong>: starts Apache Server</li>
+            <li><strong>sudo service apache2 stop</strong>: stops Apache Server</li>
+          </ul>
+          <h3>Apache Setup</h3>
+          <ul>
+            <li><strong>sudo nano</strong>: open text editor</li>
+            <li><strong>sudo chown -R username path/to/working/directory</strong>: make folder writable</li>
+            <li><strong>sudo nano /etc/apache2/sites-available/000-default.conf</strong>: enable site look for document root and change it your desired folder to run in localhost</li>
+            <li><strong>sudo systemtl status apache2</strong>: check if apache is running</li>
+            <li><strong>sudo sustemtl restart apache2</strong>: restart Apache</li>
+          </ul>
+          <h2>Folder Locations</h2>
+          <ul>
+            <li><strong>Apache Folder</strong>/etc/apache2/</li>
+            <li><strong>Document Root</strong>/var/www/</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
